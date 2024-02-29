@@ -1,0 +1,19 @@
+.bigNews {
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+    border: 1px solid #e2e2e2;
+}
+
+@media (max-width: 768px) {
+    .bigNews{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        margin: 0 10px 30px;
+    }
+    .bigNews img{
+        width: 200px;
+    }
+}

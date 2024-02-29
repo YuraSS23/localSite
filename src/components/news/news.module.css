@@ -1,0 +1,11 @@
+.news {
+    font-size: 18px;
+    color: #444448;
+}
+
+.smallNews {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
