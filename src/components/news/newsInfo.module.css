@@ -3,3 +3,7 @@
     gap: 5px;
     font-size: 12px;
 }
+.lowBlock {
+    display: flex;
+    justify-content: space-between;
+}

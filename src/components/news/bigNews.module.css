@@ -4,6 +4,12 @@
     margin: 50px;
     border: 1px solid #e2e2e2;
 }
+.bigNewsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px 10px 0;
+}
 
 @media (max-width: 768px) {
     .bigNews{
@@ -13,7 +19,10 @@
         gap: 20px;
         margin: 0 10px 30px;
     }
-    .bigNews img{
-        width: 200px;
+    .bigNewsImg{
+        width: 100%;
+    }
+    .bigNewsContent {
+        padding-left: 10px;
     }
 }

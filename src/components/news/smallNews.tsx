@@ -11,11 +11,11 @@ export const SmallNews = (props: SmallNewsPropsType) => {
     return (
         <div className={s.smallNews}>
             <div>
-                <img src={props.imgLink}/>
+                <img className={s.smallNewsPicture} src={props.imgLink}/>
             </div>
             <div className={s.newsContent}>
                 <p>{props.text}</p>
-                <NewsInfo/>
+                <NewsInfo pin={true}/>
             </div>
         </div>
     );
