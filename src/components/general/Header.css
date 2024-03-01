@@ -93,7 +93,7 @@ li {
 .menu__item {
     display: block;
     padding: 12px 24px;
-
+    position: relative;
     color: #333;
 
     font-family: 'Roboto', sans-serif;
@@ -107,6 +107,7 @@ li {
 .menu__item:hover {
     background-color: #CFD8DC;
 }
+
 .hamburger-menu {
     display: none;
 }
@@ -124,6 +125,21 @@ li {
 .news:hover .third__menu__items {
     display: block;
 }
+a:hover .plus{
+    display: none;
+}
+a:hover .minus{
+    display: inline-block;
+}
+.plus {
+    margin-left: 20px;
+    display: inline-block;
+}
+.minus {
+    margin-left: 20px;
+    display: none;
+}
+
 
 @media (max-width: 768px) {
     .logo {

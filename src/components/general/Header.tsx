@@ -14,12 +14,18 @@ export const Header = () => {
                 </label>
                 <ul className="menu__box">
                     <li className={"mainPage"}>
-                        <a className="menu__item" href="#">ГЛАВНАЯ</a>
+                        <a className="menu__item" href="#">ГЛАВНАЯ
+                            <span className={"plus"}>+</span>
+                            <span className={"minus"}>-</span>
+                        </a>
                         <ul className="second__menu__items">
                             <li className={"news"}>
-                                <a href="#" className="menu__item">Новости</a>
+                                <a href="#" className="menu__item">Новости
+                                    <span className={"plus"}>+</span>
+                                    <span className={"minus"}>-</span>
+                                </a>
                                 <ul className="third__menu__items">
-                                    <li><a href="#" className="menu__item">Все новости</a></li>
+                                <li><a href="#" className="menu__item">Все новости</a></li>
                                     <li><a href="#" className="menu__item">День качества</a></li>
                                     <li><a href="#" className="menu__item">Видеосюжеты</a></li>
                                     <li><a href="#" className="menu__item">Мероприятия</a></li>
